@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="@dimen/activity_margin"
+              android:background="@color/light_grey"
+              android:orientation="vertical">
+
+    <Button
+        android:id="@+id/predictButton"
+        style="@style/SimpleButtonStyle"
+        android:layout_marginBottom="@dimen/button_margin"
+        android:layout_marginTop="@dimen/button_margin"
+        android:background="@color/light_green"
+        android:text="@string/predict_disease"/>
+
+    <Button
+        android:id="@+id/diagnoseButton"
+        style="@style/SimpleButtonStyle"
+        android:layout_marginBottom="@dimen/button_margin"
+        android:layout_marginTop="@dimen/button_margin"
+        android:background="@color/light_orange"
+        android:text="@string/diagnose_disease"/>
+</LinearLayout>

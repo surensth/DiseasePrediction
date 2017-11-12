@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DiseasePrediction</string>
+    <string name="predict_disease">Predict Disease</string>
+    <string name="diagnose_disease">Diagnose Disease</string>
 </resources>
